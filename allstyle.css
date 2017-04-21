@@ -42,3 +42,18 @@ div.leftlink, div.rightlink {
 	font-size: 20px;
 	margin-top: 10%;
 }
+
+div.button {
+	text-align: center;
+}
+
+button {
+	display: inline-block;
+	margin-top: 80px;
+	border-radius: 50%;
+	border: none;
+	width: 40%;
+	height: 150px;
+	background-color: orange;
+	font-size: 40px;
+}
