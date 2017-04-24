@@ -2,8 +2,16 @@ body {
 	text-align: center;
 }
 
-div.whatfor {
-	margin-top: 100px;
+button.getdatmoney {
+	display: inline-block;
+	margin-top: 80px;
+	margin-bottom: 1%;
+	border-radius: 18%;
+	width: 30%;
+	height: 100px;
+	background-color: orange;
+	font-size: 40px;
+	font-family: Impact;
 }
 
 p.doglove, p.duh, p.doit {
@@ -13,7 +21,7 @@ p.doglove, p.duh, p.doit {
 p.doit {
 	border-bottom: 3px solid black;
 	padding-bottom: 10px;
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 	}	
 
 h1.qna {
@@ -27,22 +35,28 @@ ul.expenses {
 	font-size: 20px;
 	text-align: left;
 	margin-left: 50%;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	border-bottom: 3px solid black;
+	list-style-type: disc;
 }
 
 h2.also {
-	font-size: 100px;
+	font-size: 50px;
 }
 
 h2.prizes {
-	font-size: 50px;
+	font-size: 30px;
+	border-bottom: 3px solid black;
+}
+
+div.thanks {
+	padding-bottom: 10px;
 	border-bottom: 3px solid black;
 }
 
 div.gift {
 	margin-top: 2%;
-	width: 80%;
+	width: 90%;
 	height: 150px;
 	display: inline-block;
 	border-right: 2px solid black;
@@ -50,10 +64,11 @@ div.gift {
 }
 
 img.gift {
-	width: 150px;
+	width: 200px;
 	height: 150px;
 	display: inline-block;
 	float: left;
+	border-radius: 20%;
 }
 
 div.description {
@@ -61,7 +76,6 @@ div.description {
 	text-align: left;
 	width: 80%;
 	height: 150px;
-	font-family: "Stencil";
 }
 
 span.amount {
@@ -70,19 +84,6 @@ span.amount {
 
 p.uget {
 	font-size: 20px;
-	margin-top: 5%;
+	margin-top: 3%;
 	font-family: "Times New Roman";
-}
-
-button.getdatmoney {
-	display: inline-block;
-	margin-top: 80px;
-	margin-bottom: 20px;
-	border-radius: 50%;
-	border: none;
-	width: 40%;
-	height: 150px;
-	background-color: orange;
-	font-size: 40px;
-	font-family: Impact;
 }
