@@ -6,7 +6,7 @@ div.navbar {
  	border: 1px solid black;
  	border-bottom: 1px solid black;
   	text-align: center;
-  	background: #eb8022;
+  	background: white;
 }
   
 h1.contact {
@@ -60,26 +60,20 @@ h2 {
 
 div.column {
 	float: left;
-	width: 25%;
+	width: 50%;
 	padding: 30px;
-	text-align: center;
 }
 
 img {
-	display: inline-block;
+	float: left;
 	margin: 10px 20px;
+	padding: 15px;
 	width: 80%;
 }
 
 p {
 	top: 0;
 	width: 100%;
-	background-color: #93c6f5;
-}
-
-div.pooch {
-	background-color: #fffa78;
-	display: inline-block;
-	width: 100%;
+	float: none;
 }
 
