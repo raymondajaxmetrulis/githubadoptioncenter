@@ -1,23 +1,85 @@
-h1{
+ div.navbar {
+ 	position: fixed;
+  	top: 0;
+  	width: 100%;
+  	height: 60px;
+ 	border: 1px white;
+ 	border-bottom: 1px white ;
+  	text-align: center;
+  	background-color: orange;
+  }
+  
+ h1.contact {
+ 	background-color: orange;
+ 	display: inline-block;
+ 	margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+ 	font-family: Roboto;
+ 	font-style:bold;
+ 	color:white;
+ 	font-size: 25px;
+
+  }
+ 
+  a.leftlink {
+  	background-color: white;
+    display: inline-block;
+  	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	height: 60px;
+ 	width: 200px;
+ 	border-right: 1px solid black;	
+ 	border-color: white;
+ 	text-decoration: none;
+
+  }
+ 
+ a.rightlink {
+ 	background-color: white;
+ 	display: inline-block;
+ 	position: fixed;
+ 	top: 0;
+ 	right: 0;
+ 	height: 60px;
+ 	width: 200px;
+ 	border-left: 1px solid black;
+ 	border-color: white;
+ 	text-decoration: none;
+ 	text-decoration-color: green;
+ }
+
+ a.leftlink:link, a.leftlink:visited, a.leftlink:active, a.rightlink:link, a.rightlink:visited, a.rightlink:active {
+ 	color: black;
+ }
+ 
+ div.leftlink, div.rightlink {
+ 	font-size: 20px;
+ 	margin-top: 10%;
+ 	font-family: Roboto;
+ 	font-style:bold;
+
+ }
+
+h2{
 	font-size: 45px;
    	text-align: center;
    	color:orange;
    	font-family: Roboto;
-   	margin-top: 100px;
+   	margin-top: 75px;
 }
 
 
-img  { 
+img { 
 	  width: 150px;
 	  height:250px;
 	  display: block;
 	  margin-left: auto;
 	  margin-right: auto;
-
-
 }
 
-h2{
+h3{
 	font-size: 20px;
    	text-align: center;
    	color:navy;
@@ -26,7 +88,7 @@ h2{
    	margin-top: 50px;
 }
 
-h3{
+h4{
 	font-size: 20px;
    	text-align: center;
    	color:green;
@@ -35,7 +97,7 @@ h3{
    	margin-top: 50px;
 }
 
-h4{
+h5{
 	font-size: 20px;
    	text-align: center;
    	color:pink;
@@ -96,4 +158,15 @@ hr {
    font-size:15px;
 
 }
+
+div.column {
+	float: center;
+	width: 450px;
+	column-count: 4;
+	margin-top: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
