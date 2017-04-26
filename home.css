@@ -85,10 +85,11 @@ img {
 }
 
 h3{
-
-	   font-size: 30px;
+    background-color:#93c6f5;
+    background-size: 500px;
+    font-size: 30px;
    	text-align: center;
-   	color: #93c6f5;
+   	color: white;
    	font-family: Roboto;
    	font-style: bold;
    	margin-top: 50px;
@@ -97,19 +98,23 @@ h3{
 
 
 h4{
-	font-size: 30px;
+	  background-color:#a1df56;
+    background-size: 500px;
+    font-size: 30px;
    	text-align: center;
-   	color: #a1df56;
+   	color: white;
    	font-family: Roboto;
    	font-style: bold;
    	margin-top: 50px;
 
 }
 
-h5{
-	font-size: 30px;
+h5{ 
+    background-color:#e372b4;
+    background-size: 500px;
+	  font-size: 30px;
    	text-align: center;
-   	color:#e372b4;
+   	color:white;
    	font-family: Roboto;
    	font-style: bold;
    	margin-top: 50px;
@@ -119,8 +124,8 @@ h5{
 
 hr {
 	width: 50px;
-   margin-top: 50px;	
-   margin-bottom: 50px;
+   margin-top: 30px;	
+   margin-bottom: 30px;
    color:grey;
 
 }
@@ -132,7 +137,6 @@ hr {
 }
 
 .p1 {
-   
    color:grey;
    float:center;
    width: 450px;
@@ -170,6 +174,7 @@ hr {
 }
 
 div.column {
+
   float: center;
 	width: 500px;
   height: 100%;
