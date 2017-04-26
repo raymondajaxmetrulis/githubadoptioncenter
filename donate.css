@@ -1,8 +1,10 @@
 body {
 	text-align: center;
+	font-family: Roboto;
+ 	font-style: bold;
 }
 
- div.navbar {
+div.navbar {
  	position: fixed;
   	top: 0;
   	width: 100%;
@@ -11,23 +13,22 @@ body {
  	border-bottom: 1px white ;
   	text-align: center;
   	background-color: #eb8022;
+  	border-bottom: 1px solid black;
   }
   
- h1.contact {
+h1 {
  	background-color: #eb8022;
  	display: inline-block;
  	margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
- 	font-family: Roboto;
- 	font-style:bold;
- 	color:white;
+ 	color: white;
  	font-size: 25px;
 
   }
  
-  a.leftlink {
-  	background-color: white;
+a.leftlink {
+	background-color: white;
     display: inline-block;
   	position: fixed;
  	top: 0;
@@ -40,7 +41,7 @@ body {
 
   }
  
- a.rightlink {
+a.rightlink {
  	background-color: white;
  	display: inline-block;
  	position: fixed;
@@ -54,61 +55,90 @@ body {
  	text-decoration-color: green;
  }
 
- a.leftlink:link, a.leftlink:visited, a.leftlink:active, a.rightlink:link, a.rightlink:visited, a.rightlink:active {
+a.leftlink:link, a.leftlink:visited, a.leftlink:active, a.rightlink:link, a.rightlink:visited, a.rightlink:active {
  	color: black;
  }
  
- div.leftlink, div.rightlink {
+div.leftlink, div.rightlink {
  	font-size: 20px;
+ 	height: 60px;
  	margin-top: 10%;
- 	font-family: Roboto;
- 	font-style:bold;
-
  }
+
+h2 {
+ 	font-size: 45px;
+   	text-align: center;
+   	color: #eb8022;
+   	font-family: Roboto;
+   	margin-top: 150px;
+}
+
+img.logo { 
+	width: 150px;
+	height:250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.getdatmoney {
+	display: inline-block;
+	width: 70%;
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
 
 button.getdatmoney {
 	display: inline-block;
-	margin-top: 80px;
-	margin-bottom: 1%;
+	float: right;
 	border-radius: 18%;
-	width: 30%;
+	width: 40%;
 	height: 100px;
-	background-color: orange;
+	background-color: #eb8022;
 	font-size: 40px;
+	color:  #fffa78;
 	font-family: Impact;
+	border: 5px black outset;
+}
+
+div.whatfor {
+	display: inline-block;
+	float: left;
+	width: 45%;
 }
 
 p.doglove, p.duh, p.doit {
-	font-size: 30px;
+	display: inline-block;
+	font-size: 24px;
 }
 
 p.doit {
-	border-bottom: 3px solid black;
+	border-bottom: 3px solid #e372b4;
 	padding-bottom: 10px;
-	margin-bottom: 40px;
 	}	
 
-h1.qna {
+h3 {
 	font-size: 40px;
 	text-align: right;
-	margin-right: 50%;
-	border-bottom: 3px solid black;
+	margin-right: 30%;
+	border-bottom: 3px solid #e372b4;
+	font-style: italic;
 }
 
 ul.expenses {
 	font-size: 20px;
 	text-align: left;
-	margin-left: 50%;
-	margin-bottom: 50px;
-	border-bottom: 3px solid black;
+	margin-left: 40%;
+	margin-bottom: 120px;
+	border-bottom: 3px solid #e372b4;
 	list-style-type: disc;
 }
 
-h2.also {
+h4 {
 	font-size: 50px;
 }
 
-h2.prizes {
+h5 {
 	font-size: 30px;
 	border-bottom: 3px solid black;
 }
@@ -116,15 +146,17 @@ h2.prizes {
 div.thanks {
 	padding-bottom: 10px;
 	border-bottom: 3px solid black;
+	background-color: #93c6f5;
 }
 
 div.gift {
 	margin-top: 2%;
-	width: 90%;
+	width: 50%;
 	height: 150px;
 	display: inline-block;
 	border-right: 2px solid black;
-	border-radius: 10%;
+	border-radius: 18%;
+	background-color: white;
 }
 
 img.gift {
@@ -138,7 +170,7 @@ img.gift {
 div.description {
 	display: inline-block;
 	text-align: left;
-	width: 80%;
+	width: 50%;
 	height: 150px;
 }
 
@@ -147,7 +179,28 @@ span.amount {
 }
 
 p.uget {
-	font-size: 20px;
-	margin-top: 3%;
-	font-family: "Times New Roman";
+	font-size: 14px;
+	margin-top: 10%;
 }
+
+div.getdatmoneynow {
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	background-color: #e372b4;
+}
+
+button.getdatmoneynow {
+	display: inline-block;
+	border-radius: 18%;
+	width: 40%;
+	height: 100px;
+	background-color: #eb8022;
+	font-size: 40px;
+	color:  #fffa78;
+	font-family: Impact;
+	border: 5px black outset;
+}
+
