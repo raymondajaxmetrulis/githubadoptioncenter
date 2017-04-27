@@ -45,24 +45,32 @@ div.leftlink, div.rightlink {
  	margin-top: 10%;
 }
 
+
+
 div.container { 
 	margin-top: 30%;
 	width: 900px;
 	margin: 0 auto;
+	border-style: solid;
+	background-color: #a1df56;
+
 }
 
 h2 { 
 	margin-top: 80px;
 	text-align: center;
-	font-family: arial;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
 	color: red
 }
 
 div.column {
 	float: left;
 	width: 25%;
-	padding: 30px;
+	padding: 34.5px;
 	text-align: center;
+	background-color:  #e372b4;
+	border-style: solid;
 }
 
 img {
@@ -75,11 +83,38 @@ p {
 	top: 0;
 	width: 100%;
 	background-color: #93c6f5;
+	font-family: 'Roboto', sans-serif;
 }
 
 div.pooch {
 	background-color: #fffa78;
 	display: inline-block;
 	width: 100%;
+	font-family: 'Roboto', sans-serif;
 }
 
+div.clearfix { 
+	clear: both;
+}
+
+div.button {
+	text-align: center;
+}
+
+a.my-button {   
+	margin-top: 30px;
+	padding: 25px 37px;  
+	border: 10px  #000100;  
+	color: #fffa78;   
+	background-color: #eb8022;   
+	text-decoration: none;   
+	display: inline-block;   
+	border-radius: 30px; 
+	float: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+} 
+
+a.my-button:hover {   
+	margin: 30px 0 0 32px; 
+}
