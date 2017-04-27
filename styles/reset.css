@@ -15,7 +15,10 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
+<<<<<<< HEAD:reset.css
 	font: Roboto;
+=======
+>>>>>>> 549d56d41454ce8f195f9719528e78ec3bcc7ac7:styles/reset.css
 	vertical-align: baseline;
 
 }
