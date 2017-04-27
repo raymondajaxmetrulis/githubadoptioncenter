@@ -1,0 +1,240 @@
+body {
+	text-align: center;
+	font-family: Roboto;
+}
+
+div.navbar {
+ 	position: fixed;
+  	top: 0;
+  	width: 100%;
+  	height: 60px;
+ 	border: 1px white;
+ 	border-bottom: 1px white ;
+  	text-align: center;
+  	background-color: #eb8022;
+  	border-bottom: 1px solid black;
+  }
+  
+h1.contact {
+ 	background-color: #eb8022;
+ 	display: inline-block;
+ 	margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+ 	color: white;
+ 	font-size: 25px;
+
+  }
+ 
+a.leftlink {
+	background-color: white;
+    display: inline-block;
+  	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	height: 60px;
+ 	width: 200px;
+ 	border-right: 1px solid black;	
+ 	border-color: white;
+ 	text-decoration: none;
+
+  }
+ 
+a.rightlink {
+ 	background-color: white;
+ 	display: inline-block;
+ 	position: fixed;
+ 	top: 0;
+ 	right: 0;
+ 	height: 60px;
+ 	width: 200px;
+ 	border-left: 1px solid black;
+ 	border-color: white;
+ 	text-decoration: none;
+ 	text-decoration-color: green;
+ }
+
+a.leftlink:link, a.leftlink:visited, a.leftlink:active, a.rightlink:link, a.rightlink:visited, a.rightlink:active {
+ 	color: black;
+ }
+ 
+div.leftlink, div.rightlink {
+ 	font-size: 20px;
+ 	height: 60px;
+ 	margin-top: 10%;
+ }
+
+h2 {
+ 	font-size: 45px;
+   	text-align: center;
+   	color: #eb8022;
+   	font-family: Roboto;
+   	margin-top: 150px;
+}
+
+img.logo { 
+	width: 150px;
+	height:250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.getdatmoney {
+	display: inline-block;
+	width: 70%;
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+button.getdatmoney {
+	display: inline-block;
+	float: right;
+	border-radius: 18%;
+	width: 40%;
+	height: 100px;
+	background-color: #eb8022;
+	font-size: 40px;
+	color:  #fffa78;
+	font-family: Impact;
+	border: 5px black outset;
+}
+
+div.whatfor {
+	display: inline-block;
+	float: left;
+	width: 45%;
+}
+
+p.doglove, p.duh, p.doit {
+	display: inline-block;
+	font-size: 24px;
+}
+
+p.doit {
+	border-bottom: 3px solid #e372b4;
+	padding-bottom: 10px;
+	}	
+
+h3 {
+	font-size: 40px;
+	text-align: right;
+	margin-right: 30%;
+	border-bottom: 3px solid #e372b4;
+	font-style: italic;
+}
+
+ul.expenses {
+	font-size: 20px;
+	text-align: left;
+	margin-left: 40%;
+	margin-bottom: 120px;
+	border-bottom: 3px solid #e372b4;
+	list-style-type: disc;
+}
+
+h4 {
+	font-size: 50px;
+}
+
+h5 {
+	font-size: 30px;
+	border-bottom: 3px solid black;
+}
+
+div.thanks {
+	padding-bottom: 10px;
+	border-bottom: 3px solid black;
+	background-color: #93c6f5;
+}
+
+div.gift {
+	margin-top: 2%;
+	width: 50%;
+	height: 150px;
+	display: inline-block;
+	border-right: 2px solid black;
+	border-radius: 18%;
+	background-color: white;
+}
+
+img.gift {
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+	float: left;
+	border-radius: 20%;
+}
+
+div.description {
+	display: inline-block;
+	text-align: left;
+	width: 50%;
+	height: 150px;
+}
+
+span.amount {
+	font-size: 20px;
+}
+
+p.uget {
+	font-size: 14px;
+	margin-top: 10%;
+}
+
+div.getdatmoneynow {
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	background-color: #e372b4;
+}
+
+button.getdatmoneynow {
+	display: inline-block;
+	border-radius: 18%;
+	width: 40%;
+	height: 100px;
+	background-color: #eb8022;
+	font-size: 40px;
+	color:  #fffa78;
+	font-family: Impact;
+	border: 5px black outset;
+}
+
+@media (max-width: 1024px) {
+	div.gift {
+		width: 100%;
+	}
+	p.doglove, p.duh, p.doit, h2, h3, h4, h5 {
+		font-size: 18px;
+	}
+	h1.contact {
+		font-size: 12px;
+	}
+	button.getdatmoney, button.getdatmoneynow {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 650px) {
+	p.uget {
+		font-size: 10px;
+	}
+	div.description {
+		width: 30%;
+	}
+	span.amount {
+		font-size: 12px;
+	}
+	a.leftlink, a.rightlink {
+		width: 100px;	
+		font-size: 14px;
+	}
+	h1.contact {
+		font-size: 10px;
+	}
+}
+
+/*Styled by Raymond Ajax Metrulis*/
