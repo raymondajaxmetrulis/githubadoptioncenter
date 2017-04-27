@@ -1,7 +1,6 @@
 body {
 	text-align: center;
 	font-family: Roboto;
- 	font-style: bold;
 }
 
 div.navbar {
@@ -16,7 +15,7 @@ div.navbar {
   	border-bottom: 1px solid black;
   }
   
-h1 {
+h1.contact {
  	background-color: #eb8022;
  	display: inline-block;
  	margin-left: auto;
@@ -204,3 +203,4 @@ button.getdatmoneynow {
 	border: 5px black outset;
 }
 
+/*Styled by Raymond Ajax Metrulis*/
