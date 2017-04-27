@@ -203,4 +203,38 @@ button.getdatmoneynow {
 	border: 5px black outset;
 }
 
+@media (max-width: 1024px) {
+	div.gift {
+		width: 100%;
+	}
+	p.doglove, p.duh, p.doit, h2, h3, h4, h5 {
+		font-size: 18px;
+	}
+	h1.contact {
+		font-size: 12px;
+	}
+	button.getdatmoney, button.getdatmoneynow {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 650px) {
+	p.uget {
+		font-size: 10px;
+	}
+	div.description {
+		width: 30%;
+	}
+	span.amount {
+		font-size: 12px;
+	}
+	a.leftlink, a.rightlink {
+		width: 100px;	
+		font-size: 14px;
+	}
+	h1.contact {
+		font-size: 10px;
+	}
+}
+
 /*Styled by Raymond Ajax Metrulis*/
